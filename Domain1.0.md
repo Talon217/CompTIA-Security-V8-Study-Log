@@ -4,8 +4,6 @@
 
 ### 1.1.1 Defense in depth
 
----
-
 - Confidentiality, integrity, and availability (`CIA`)
   - **Confidentiality:** Keep private content private
     - Encryption
@@ -50,8 +48,6 @@
 
 ### 1.1.2 Control categories
 
----
-
 - Technical/logical
 - Managerial/administrative
 - Physical/environmental
@@ -59,11 +55,11 @@
 
 ### 1.1.3 Control types
 
----
-
 - Preventive
 - Deterring
 - Corrective
 - Detective
 - Compensating
 - Directive
+
+---
