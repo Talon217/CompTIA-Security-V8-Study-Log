@@ -38,7 +38,10 @@
 <br>
 
 
-  
+- Zero Trust principles
+    - **Concept:** Never trust, always verify.
+    - **In-Depth:** Always running in background, checking if you and your device are secure, and limiting user access with expiration timers, and minimal permissions
+
 
 ### 1.1.2 Control categories
 
