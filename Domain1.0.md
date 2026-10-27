@@ -32,7 +32,13 @@
 <br>
 
 - Non-repudiation
-  - **Concept:** EU can't deny sending something because their private key is connected
+  - **Concept:** only 1 specific person has access to their unique private key, any data signed by it can be mathematically traced back to them using their public key.
+  - **Terminology:** repudiation = deny , Non-repudiation essentially means unable to deny.
+
+<br>
+
+
+  
 
 ### 1.1.2 Control categories
 
