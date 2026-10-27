@@ -46,20 +46,26 @@
 
 <br>
 
-### 1.1.2 Control categories
+### 1.1.2 Control categories & 1.1.3 Control types
 
-- Technical/logical
-- Managerial/administrative
-- Physical/environmental
-- Operational
+- Control categories
+  - Technical/logical
+  - Managerial/administrative
+  - Physical/environmental
+  - Operational
+- Control types
+  - Preventive
+  - Deterring
+  - Corrective
+  - Detective
+  - Compensating
+  - Directive
 
-### 1.1.3 Control types
-
-- Preventive
-- Deterring
-- Corrective
-- Detective
-- Compensating
-- Directive
+| Category | Preventive | Deterrent | Detective | Corrective | Compensating | Directive |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Technical** | Firewall rules | Splash screen | System logs | Backups | Block traffic | Storage policies |
+| **Managerial** | Onboarding policy | Threat of demotion | Login report review | Reporting policy | Separation of duties | Compliance policy |
+| **Operational** | Guard shack | Reception desk | Guard patrols | Contact authorities | Multiple staff | Security training |
+| **Physical** | Door locks | Warning signs | Motion detectors | Fire extinguisher | Power generator | Authorized personnel sign |
 
 ---
