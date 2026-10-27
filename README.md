@@ -1,4 +1,4 @@
 # CompTIA-Security-V8-Study-Log
 This repository is my comprehensive CompTIA Security+ V8 study log
 
-[CompTIA Security+ SY0-801 Exam Objectives](./Assets/CompTIA%20Security%2B%20SY0-801%20Exam%20Objectives%20(2.0).pdf)
+[![Static Badge](https://img.shields.io/badge/CompTIA_801_Security%2B-Objectives-red)](https://lecbyo.files.cmp.optimizely.com/download/77f3bd3223ac11f180820e495f189928)
