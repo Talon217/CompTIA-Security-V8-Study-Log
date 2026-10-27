@@ -52,8 +52,18 @@
 
 ---
 
-
+- Technical/logical
+- Managerial/administrative
+- Physical/environmental
+- Operational
 
 ### 1.1.3 Control types
 
 ---
+
+- Preventive
+- Deterring
+- Corrective
+- Detective
+- Compensating
+- Directive
