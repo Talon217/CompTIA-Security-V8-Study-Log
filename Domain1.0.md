@@ -29,6 +29,10 @@
   - **Authorization:** "What are you allowed to do?"
   - **Accounting:** "What did you do?"
 
+<br>
+
+- Non-repudiation
+  - **Concept:** EU can't deny sending something because their private key is connected
 
 ### 1.1.2 Control categories
 
