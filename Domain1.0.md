@@ -68,4 +68,6 @@
 | **Operational** | Guard shack | Reception desk | Guard patrols | Contact authorities | Multiple staff | Security training |
 | **Physical** | Door locks | Warning signs | Motion detectors | Fire extinguisher | Power generator | Authorized personnel sign |
 
----
+<br>
+
+## 1.2 Given a scenario, demonstrate the impact of change management processes on security
