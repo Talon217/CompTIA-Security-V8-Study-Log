@@ -2,13 +2,13 @@
 
 ## 1.1  Explain security concepts and controls.
 
-### 1.1.1 Defense in depth
+### Defense in depth
 
 - Confidentiality, integrity, and availability (`CIA`)
   - **Confidentiality:** Keep private content private
     - Encryption
     - Access Controls
-    - MFA 
+    - MFA
   - **Integrity:** Ensure the accuracy of data
     - Hashing
       - **Concept:**  mathematical algorithm to convert any amount of data into a unique, fixed-length string of characters
@@ -19,12 +19,11 @@
   - **Availability:** Access to data when needed
     - Redundancy
     - Maintain (keep up to date)
-
+      
 - Authentication, authorization, accounting (`AAA`)
   - **Authentication:** "Who are you?"
   - **Authorization:** "What are you allowed to do?"
   - **Accounting:** "What did you do?"
-
 - Non-repudiation
   - **Concept:** only 1 specific person has access to their unique private key, any data signed by it can be mathematically traced back to them using their public key.
   - **Terminology:** repudiation = deny , Non-repudiation essentially means unable to deny.
@@ -34,14 +33,16 @@
     - **In-Depth:** Always running in background, checking if you and your device are secure, and limiting user access with expiration timers, and minimal permissions
 
 - Least privilege
+  - **Concept:** Only grant the minimum level of access or permissions required.
 
-### 1.1.2 Control categories & 1.1.3 Control types
+### Control categories & 1.1.3 Control types
 
 - Control categories
   - Technical/logical
   - Managerial/administrative
   - Physical/environmental
   - Operational
+    
 - Control types
   - Preventive
   - Deterring
@@ -62,7 +63,6 @@
 ## 1.2 Given a scenario, demonstrate the impact of change management processes on security
 
 ### Business processes impacting security operations
-
 - Change Advisory Board (CAB)
   - **Concept:** A formal group of stakeholders that meets to review, prioritize, and evaluate proposed modifications to systems.
 - Approval Process
@@ -80,3 +80,17 @@
 <br>
 
 ## 1.3 Explain the importance of using appropriate cryptographic solutions.
+
+### Public Key Infrastructure (PKI)
+- Key Escrow
+  - **Concept:** Third-party storage of cryptographic keys for authorized data recovery.
+ 
+### Certificates
+- Certificate Authorities (CA)
+- Certificate Revocation Lists (CRLs)
+- Online Certificate Status Protocol (OCSP)
+- Self-Signed Certificates
+- Third-Party Certificates
+- Root of Trust
+- Certificate Signing Request (CSR) Generation
+- Wildcard Certificates
