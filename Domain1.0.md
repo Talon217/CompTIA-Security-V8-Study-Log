@@ -94,3 +94,22 @@
 - Root of Trust
 - Certificate Signing Request (CSR) Generation
 - Wildcard Certificates
+
+### Encryption & Transport
+- Symmetric Encryption
+- Asymmetric Encryption
+- Encryption Levels
+  - Full Disk
+  - Partition / Volume
+  - File
+  - Database / Record
+- Transport / Communication Protocols
+- Key Exchange
+- Algorithms & Key Length
+
+### Signatures, Integrity, & Obfuscation
+- Digital Signatures
+- Salting
+- Hashing Algorithms
+- Obfuscation
+- Tools
