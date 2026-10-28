@@ -71,3 +71,16 @@
 <br>
 
 ## 1.2 Given a scenario, demonstrate the impact of change management processes on security
+
+### Business processes impacting security operations
+
+- Change Advisory Board (CAB)
+  - **Concept:** A formal group of stakeholders that meets to review, prioritize, and evaluate proposed modifications to systems.
+- Approval Process
+  - **Concept:** Every non-standard alteration requires a formal Request for Change (RFC). No engineer should push fixes straight to production without CAB sign-off.
+- Fail Forward
+  - **Concept:** instead of rolling back a failed update, you rapidly push a minor hotfix
+- Maintenance Window
+  - **Concept:** A designated, low-traffic time block (like 2:00 AM on a Sunday)
+- Standard Operating Procedures (SOPs)
+  - **Concept:**  Step-by-step instructions engineers follow to deploy updates safely and systematically
