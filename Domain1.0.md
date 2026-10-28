@@ -87,12 +87,14 @@
  
 ### Certificates
 - Certificate Authorities (CA)
+  - **Concept:** Trusted entity that issues digital certificates
 - Certificate Revocation Lists (CRLs)
 - Online Certificate Status Protocol (OCSP)
 - Self-Signed Certificates
 - Third-Party Certificates
 - Root of Trust
 - Certificate Signing Request (CSR) Generation
+  - **Concept:** Send off your public key and some identity information such as your domain the be signed by a CA
 - Wildcard Certificates
 
 ### Encryption & Transport
