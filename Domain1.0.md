@@ -84,3 +84,7 @@
   - **Concept:** A designated, low-traffic time block (like 2:00 AM on a Sunday)
 - Standard Operating Procedures (SOPs)
   - **Concept:**  Step-by-step instructions engineers follow to deploy updates safely and systematically
+
+### Version Control
+- **Concept:**  Utilizing central repositories (like Git) to log and track every code, configuration, or documentation revision. 
+
