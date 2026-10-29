@@ -89,13 +89,19 @@
 - Certificate Authorities (CA)
   - **Concept:** Trusted entity that issues digital certificates
 - Certificate Revocation Lists (CRLs)
+  - **Concept:** A periodically updated list of certificates that have been invalidated by the CA; Clients must periodically download this file.
 - Online Certificate Status Protocol (OCSP)
+  - **Concept:** lightweight alternative to CRLs.  browser queries an OCSP responder directly about a single certificate.
 - Self-Signed Certificates
+  - **Concept:** they provided the encryption, but are generally unaccepted and consider unsafe.
 - Third-Party Certificates
+  - **Concept:** certificates from universally trusted public CAs (e.g., DigiCert, Let's Encrypt). Web browsers automatically trust these because the CA's root is pre-installed in the operating system.
 - Root of Trust
+  - **Concept:** ROOT CA, self signed, and signs middle man CAs
 - Certificate Signing Request (CSR) Generation
   - **Concept:** Send off your public key and some identity information such as your domain the be signed by a CA
 - Wildcard Certificates
+  - **Concept:** A certificate that secures the immediate root domain, and all direct sub domains.
 
 ### Encryption & Transport
 - Symmetric Encryption
