@@ -105,7 +105,11 @@
 
 ### Encryption & Transport
 - Symmetric Encryption
+  - **Concept:** Single key lock box, Safe, fast, but not easy too share
+  - **Example:** Wifi PW
 - Asymmetric Encryption
+  - **Concept:** Combo of private and public key
+  - **Example:** A mail box, You can throw a credit card in, but only 1 person can get it out
 - Encryption Levels
   - Full Disk
   - Partition / Volume
