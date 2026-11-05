@@ -112,12 +112,17 @@
   - **Example:** A mail box, You can throw a credit card in, but only 1 person can get it out
 - Encryption Levels
   - Full Disk
+  - **Concept:** Encrypt drive e.g., bitlocker
   - Partition / Volume
   - File
   - Database / Record
 - Transport / Communication Protocols
+  - **Example:** TLS, IPsec, SSH
 - Key Exchange
 - Algorithms & Key Length
+  - symmetric AES = 128, 196, or 256 bits (Gold standard)
+  - asymmetric RSA = typically 2048, or 4096 bits to compete with AES
+  - asymmetric ECC = matches the rsa4096 while only being 256bits, great for low power mobile devices
 
 ### Signatures, Integrity, & Obfuscation
 - Digital Signatures
