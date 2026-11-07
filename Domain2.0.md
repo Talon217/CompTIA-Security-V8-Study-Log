@@ -2,20 +2,20 @@
 
 ## 2.1  Explain characteristics of threats and vulnerabilities.
 
-- Threats
+### Threats
   - Threat feeds
   - Likelihood
   - Impact
   - Intelligence sources
   - Life cycle
-- Vulnerabilities  
+### Vulnerabilities  
   - Scoring
   - Common Vulnerability Scoring System (CVSS)
   - Prioritization
   - Vulnerability types
   - Common Vulnerabilities and Exposures (CVE)
 
-### 2.2 Describe common threat actors and motivations.
+## 2.2 Describe common threat actors and motivations.
 - Threat actors
   - Crime syndicate/organized crime
   - Terrorist
@@ -25,7 +25,7 @@
   - Accidental/unintentional
   - Competitor
   - State-sponsored
-- Motivations
+### Motivations
   - Financial
   - Influence
   - Intellectual property
@@ -38,7 +38,7 @@
   - Ideological
   - Political
   - Ethical
-- Attributes of actors
+### Attributes of actors
   - Internal/external
   - Resources/funding
   - Level of sophistication/capability
