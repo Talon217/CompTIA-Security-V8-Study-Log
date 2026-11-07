@@ -3,7 +3,6 @@
 ## 1.1  Explain security concepts and controls.
 
 ### Defense in depth
-
 - Confidentiality, integrity, and availability (`CIA`)
   - **Confidentiality:** Keep private content private
     - Encryption
@@ -36,13 +35,11 @@
   - **Concept:** Only grant the minimum level of access or permissions required.
 
 ### Control categories & 1.1.3 Control types
-
 - Control categories
   - Technical/logical
   - Managerial/administrative
   - Physical/environmental
   - Operational
-    
 - Control types
   - Preventive
   - Deterring
@@ -57,8 +54,6 @@
 | **Managerial** | Onboarding policy | Threat of demotion | Login report review | Reporting policy | Separation of duties | Compliance policy |
 | **Operational** | Guard shack | Reception desk | Guard patrols | Contact authorities | Multiple staff | Security training |
 | **Physical** | Door locks | Warning signs | Motion detectors | Fire extinguisher | Power generator | Authorized personnel sign |
-
-<br>
 
 ## 1.2 Given a scenario, demonstrate the impact of change management processes on security
 
@@ -77,8 +72,6 @@
 ### Version Control
 - **Concept:**  Utilizing central repositories (like Git) to log and track every code, configuration, or documentation revision. 
 
-<br>
-
 ## 1.3 Explain the importance of using appropriate cryptographic solutions.
 
 ### Public Key Infrastructure (PKI)
@@ -93,7 +86,7 @@
 - Online Certificate Status Protocol (OCSP)
   - **Concept:** lightweight alternative to CRLs.  browser queries an OCSP responder directly about a single certificate.
 - Self-Signed Certificates
-  - **Concept:** they provided the encryption, but are generally unaccepted and consider unsafe.
+  - **Concept:** they provided the encryption, but require manual accept-ion by browsers, as they have no third part voucher.
 - Third-Party Certificates
   - **Concept:** certificates from universally trusted public CAs (e.g., DigiCert, Let's Encrypt). Web browsers automatically trust these because the CA's root is pre-installed in the operating system.
 - Root of Trust
@@ -119,17 +112,23 @@
 - Transport / Communication Protocols
   - **Example:** TLS, IPsec, SSH
 - Key Exchange
+  - **Diffie-Hellman (DH):** Method for two parties to securely establish a shared symmetric key over an untrusted channel.
+  - **Perfect Forward Secrecy (PFS):** Ensures that compromise of a long-term server key does not compromise past session keys (uses ephemeral keys: DHE / ECDHE).
 - Algorithms & Key Length
-  - symmetric AES = 128, 196, or 256 bits (Gold standard)
+  - symmetric AES = 128, 192, or 256 bits (Gold standard)
   - asymmetric RSA = typically 2048, or 4096 bits to compete with AES
   - asymmetric ECC = matches the rsa4096 while only being 256bits, great for low power mobile devices
 
 ### Signatures, Integrity, & Obfuscation
 - Digital Signatures
 - Salting
-  - **Concept:** adding some hash to the end of a hash to stop rainbow table
+  - **Concept:** Adding random data to a password before hashing it to ensure identical passwords yield different hashes, defeating rainbow tables.
 - Hashing Algorithms
+  - **SHA-2 / SHA-3:** Modern, secure cryptographic hash standards (SHA-256, SHA-512).
+  - **MD5 & SHA-1:** Deprecated/legacy; vulnerable to collisions.
 - Obfuscation
   -  **Concept:** Intentionally making your code confusing to read.
   - **Example:** replace `username = bob` with `fao7t = bob`  
 - Tools
+  - **OpenSSL:** CLI tool for generating keys, CSRs, and testing TLS handshakes.
+  - **CertUtil / sha256sum:** CLI tools to compute and verify file hash integrity.
