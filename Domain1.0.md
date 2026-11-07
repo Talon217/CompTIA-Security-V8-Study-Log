@@ -112,7 +112,7 @@
   - **Example:** A mail box, You can throw a credit card in, but only 1 person can get it out
 - Encryption Levels
   - Full Disk
-  - **Concept:** Encrypt drive e.g., bitlocker
+    - **Concept:** Encrypt drive e.g., bitlocker
   - Partition / Volume
   - File
   - Database / Record
@@ -127,6 +127,9 @@
 ### Signatures, Integrity, & Obfuscation
 - Digital Signatures
 - Salting
+  - **Concept:** adding some hash to the end of a hash to stop rainbow table
 - Hashing Algorithms
 - Obfuscation
+  -  **Concept:** Intentionally making your code confusing to read.
+  - **Example:** replace `username = bob` with `fao7t = bob`  
 - Tools
