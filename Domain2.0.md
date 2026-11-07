@@ -108,14 +108,12 @@
   - Near-field communications (NFC)
 
 ## 2.4 Explain types of vulnerabilities and attack surfaces.
-
 ### Asset Lifecycle & Patch Management
 - Unsupported products
 - Obsolete systems
 - Unpatched systems
 - Unmanaged systems
 - Zero-day
-
 ### Software, Application & Code Flaws
 - Applications
   - Race conditions
@@ -125,26 +123,83 @@
 - Code
   - Hardcoded secrets
   - Unsafe exception handling
-
 ### Host & Infrastructure Surfaces
 - Operating system (OS)-based
 - Virtualization
 - Ports and services
 - Cryptographic vulnerabilities
-
 ### Identity, Access & Governance
 - Identity providers
 - Unmanaged/stale credentials
 - Misconfiguration
 - Shadow IT
 - Rogue devices
-
 ### Endpoint & Emerging Edge Surfaces
 - Mobile devices
 - Wireless and low-powered communications
 - Large language models (LLMs)
-
 ### Cloud, Data & External Repositories
 - Public object storage
 - Public repositories
 
+## 2.5 Given a scenario, analyze indicators of malicious activity.
+### Malware attacks
+- Ransomware
+- Trojan
+- Worm
+- Spyware
+- Adware
+- Virus
+- Rootkit
+- Keylogger
+- Logic bomb
+- Fileless malware
+### Physical attacks
+- Tailgating
+- Shoulder surfing
+- Skimming
+- Forced entry
+### Network attacks
+- Distributed denial of service (DDoS)
+- Protocol downgrade
+- Rogue
+- Sniffing
+- Spoofing
+- On-path
+- Domain Name System (DNS) attacks
+- Cache poisoning
+### Social engineering attacks
+- Smishing
+- Vishing
+- Phishing
+- Whaling
+- Spear phishing
+- Quishing
+- Impersonation
+- Deepfake
+### Indicators of compromise
+- Hash
+- Internet Protocol (IP) address
+- Domain
+- Malicious processes
+- File system artifacts
+- Timestamp
+- Log manipulation
+- Excessive resource consumption
+- Plaintext strings
+- Account lockout
+- Impossible travel
+- Concurrent sessions
+### Application attacks
+- Injection
+- Buffer overflow
+- Replay
+- Privilege escalation
+- Forgery
+- Directory traversal
+### Credential attacks
+- Password spraying
+- Brute force
+- User enumeration
+- Replay
+- Multifactor authentication (MFA) bypass
