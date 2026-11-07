@@ -203,3 +203,22 @@
 - User enumeration
 - Replay
 - Multifactor authentication (MFA) bypass
+
+## 2.6 Summarize threats and vulnerabilities associated with artificial intelligence (AI) usage.
+### Input & Model Manipulation Attacks
+- Prompt injection
+- Jailbreaking
+- Model manipulation
+- Evasion
+- Poisoning
+### System, Interface & Execution Risks
+- Code execution
+- Session hijacking
+- Data loss
+### Model Reliability & Output Flaws
+- Hallucinations
+- Bias
+- Explainability
+### Data Governance, Compliance & Trust
+- Privacy
+- Ethical considerations
