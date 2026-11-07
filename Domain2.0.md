@@ -1,7 +1,6 @@
 # 2.0 Threats, Vulnerabilities, and Attacks 24%
 
 ## 2.1  Explain characteristics of threats and vulnerabilities.
-
 ### Threats
   - Threat feeds
   - Likelihood
@@ -16,7 +15,7 @@
   - Common Vulnerabilities and Exposures (CVE)
 
 ## 2.2 Describe common threat actors and motivations.
-- Threat actors
+### Threat actors
   - Crime syndicate/organized crime
   - Terrorist
   - Unskilled attacker
