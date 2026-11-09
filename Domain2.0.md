@@ -50,19 +50,29 @@
   - Financial
   - Influence
   - Intellectual property
+    - Stealing secret recipes, designs, or patents
   - Notoriety
+    - Showing off.
   - Espionage
+    - Stealing political or military secrets from other countries.
   - Fear/chaos
   - Extortion
+    - Blackmail
   - General curiosity
   - Revenge
   - Ideological
+    - Fighting for deep-seated personal, moral, or religious beliefs.
   - Political
+    - Trying to weaken a government or rig a political situation.
   - Ethical
+    - Digital good guy. white hat.
 ### Attributes of actors
   - Internal/external
+    - Insider / outsider
   - Resources/funding
+    - $$$
   - Level of sophistication/capability
+    - Skill level
 
 ## 2.3 Describe threat vectors and sources.
 ### Advanced persistent threat (APT)
