@@ -23,18 +23,29 @@
     - An open industry standard for assessing the severity of computer system security vulnerabilities.
   - Prioritization
   - Vulnerability types
+    - Zero-day: A security flaw unknown to the vendor, leaving 0 days for a patch to be created before exploitation can occur.
+    - Legacy platforms: Outdated operating systems or software applications that no longer receive official updates or security patches.
   - Common Vulnerabilities and Exposures (CVE)
+    - **Concept:** A catalog of publicly disclosed cybersecurity vulnerabilities maintained by the MITRE Corporation.
 
 ## 2.2 Describe common threat actors and motivations.
 ### Threat actors
   - Crime syndicate/organized crime
+    -  Professional groups hacking for huge payouts.
   - Terrorist
+    - Their goal is causing real-world damage and widespread panic.
   - Unskilled attacker
+    - Script kiddies with premade tools.
   - Hacktivist
+    - They break into systems to fight for a cause.
   - Insider
+    - Current or former employees using their real access to do harm.
   - Accidental/unintentional
+    - Regular employees who accidentally click phishing links or delete files.
   - Competitor
+    - Rival companies trying to steal blueprints or business secrets.
   - State-sponsored
+    - High-budget government hackers
 ### Motivations
   - Financial
   - Influence
