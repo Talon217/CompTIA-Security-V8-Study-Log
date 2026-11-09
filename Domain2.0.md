@@ -7,11 +7,20 @@
   - Likelihood
   - Impact
   - Intelligence sources
-    -
+    - OSINT
+    - Dark web
   - Life cycle
+    -  Direction (defining requirements),
+    -  Collection (gathering data),
+    -  Processing (formatting data),
+    -  Analysis (turning data into useful insights),
+    -  Dissemination (sharing with stakeholders), 
+    -  Feedback (refining the requirements)
 ### Vulnerabilities  
   - Scoring
+    - The systematic process of evaluating a security flaw's attributes to calculate a numerical severity rating.
   - Common Vulnerability Scoring System (CVSS)
+    - An open industry standard for assessing the severity of computer system security vulnerabilities.
   - Prioritization
   - Vulnerability types
   - Common Vulnerabilities and Exposures (CVE)
