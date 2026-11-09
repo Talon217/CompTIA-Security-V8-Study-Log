@@ -3,9 +3,11 @@
 ## 2.1  Explain characteristics of threats and vulnerabilities.
 ### Threats
   - Threat feeds
+    - **Concept:** Trackers, and vendors sharing information on emerging security risk
   - Likelihood
   - Impact
   - Intelligence sources
+    -
   - Life cycle
 ### Vulnerabilities  
   - Scoring
