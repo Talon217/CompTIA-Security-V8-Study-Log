@@ -76,15 +76,24 @@
 
 ## 2.3 Describe threat vectors and sources.
 ### Advanced persistent threat (APT)
+*long term network spies*
+
 ### Message-based
   - Email
+    - The most common vector for malicious links, phishing attachments, and social engineering scams.
   - Short Message Service (SMS)
+    - Scam text
   - Rich Communication Services (RCS)
+    - Same as standard SMS scams, but with richer images, interactive buttons, or verified profiles to look more believable.
   - Instant messaging
+    -  Direct messaging apps like WhatsApp or Signal used to spread malware or phishing links
   - Collaboration tools
+    - Platforms like Teams, or Discord where users share files and trust external links more easily.
 ### Image-based
   - Quick response (QR) codes
+    - redirects the victim to a malicious website ("quishing").
   - Embedded content
+    - Trojan horse pictures. Hiding a secret virus inside a standard photo.
   - Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
 ### Attachment-based
   - Embedded macros
