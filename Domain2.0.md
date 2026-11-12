@@ -132,8 +132,11 @@
   - Servers
   - Tablets
   - Trusted devices
+    - Pre-approved hardware bypassing standard security checks
   - Built-in tools
+    - native OS utilities such as PowerShell
   - Living-off-the-land tools
+    - (LOLBins) Weaponizing Built-in tools 
 ### Supply chain-based
   - Third-party providers
   - Managed service providers
