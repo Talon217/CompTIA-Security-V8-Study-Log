@@ -97,18 +97,28 @@
   - Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
 ### Attachment-based
   - Embedded macros
+    - Automated scripts (like VBA) hidden inside Office files
   - Rich Text Format (RTF) documents
+    - Complex format txt documents that allow for embedded parser flaws
+  - Parser Flaws
+    - Attackers intentionally craft broken files to cause a buffer overflow or memory corruption.
   - Portable Document Formats (PDFs)
+    - capable of running embedded JavaScript or launching external malicious executables via hidden links
 ### Browser-based
   - Extensions
   - JavaScript
+    - Cross-Site Scripting (XSS) or malicious ads to hijack sessions or redirect users.
   - Password managers
   - Cookies
   - Session tokens
+    - Allows for session hijacking
 ### Network-based
   - Infrastructure devices
+    -  Core hardware like routers, switches, and firewalls targeted via unpatched firmware, weak credentials, or misconfigured ports.
   - Virtualized devices
+    - Virtual machines and hypervisors vulnerable to the usual + VM escapes.
   - Session keys
+    -Used to encrypt a single communication ; if hacked, communications can be intercepted.
 ### Remote access
   - Remote desktop
   - Virtual Network Computing (VNC)
