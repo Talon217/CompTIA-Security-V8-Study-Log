@@ -121,8 +121,11 @@
     -Used to encrypt a single communication ; if hacked, communications can be intercepted.
 ### Remote access
   - Remote desktop
+    - frequently targeted by brute-force credential attacks.
   - Virtual Network Computing (VNC)
+    - platform-independent screen-sharing ; Often has weak encryption
   - Virtual private network (VPN)
+    - vulnerable to credential theft, split-tunneling leaks, or unpatched gateway flaws.
 ### Endpoint-based
   - Mobile devices
   - Workstations
