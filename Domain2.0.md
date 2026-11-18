@@ -139,38 +139,55 @@
     - (LOLBins) Weaponizing Built-in tools 
 ### Supply chain-based
   - Third-party providers
+    - Hacking the middleman
   - Managed service providers
+    - Master key theft. Hacking one IT support company to automatically gain administrator access to every single business they service
   - Logistic providers
+    - Shipping, delivery, and transport companies that move physical goods and hardware.
   - Software as a service (SaaS) providers
+    - Poisoning the cloud app
 ### External media-based
   - Malicious Universal Serial Bus (USB)
+    - curiosity killed the cat
 ### Human-based
   - Impersonation
   - Contractor
   - Visitor
   - Biometric
   - Watering hole
+    -  Infecting a specific website that a target group of people visits regularly.
 ### Internet of Things (IoT)-based
   - Cameras
   - Sensors
   - Printers
+    -  steal cached scans of secre
 ### Operational technology (OT)-based
+  - Hacking the physical world. Taking over computer systems that run assembly lines, water treatment plants, or electrical grids to cause physical damage.
 ### Physical-based
   - Lock and key
+    - The old school break in
   - Access vestibule
+    - 1 person airlock, still prone to tight tailgate
   - Access passes
 ### Signal-based
   - Bluetooth
   - Radio frequency (RF)
+    - Eavesdropping on airwaves
   - Near-field communications (NFC)
+    - Tap-to-steal
 
 ## 2.4 Explain types of vulnerabilities and attack surfaces.
 ### Asset Lifecycle & Patch Management
 - Unsupported products
+  - Abandoned tech, new exploits.
 - Obsolete systems
+  - cannot run modern security defenses.
 - Unpatched systems
+  -  Ignoring the update button
 - Unmanaged systems
+  - Vulnerable forgotten laptop
 - Zero-day
+  -  brand-new software flaw
 ### Software, Application & Code Flaws
 - Applications
   - Race conditions
@@ -179,25 +196,39 @@
   - Malicious update
 - Code
   - Hardcoded secrets
+    - A dev leaving a master key in the public source code
   - Unsafe exception handling
+    - An app crashes and displays a giant error screen that accidentally reveals database passwords
 ### Host & Infrastructure Surfaces
 - Operating system (OS)-based
+  - Security flaws built directly into the core platform like Windows, macOS, or Linux.
 - Virtualization
+  - VM escape.
 - Ports and services
+  - Unnecessary network pathways or background programs left open and listening for connections.
 - Cryptographic vulnerabilities
+  - Cheap lock
 ### Identity, Access & Governance
 - Identity providers
+  -  Central login systems (like Okta or Entra ID) that manage Single Sign-On (SSO) across multiple apps.
 - Unmanaged/stale credentials
 - Misconfiguration
 - Shadow IT
+  - Hardware, software, or cloud apps used by employees without IT's knowledge or approval.
 - Rogue devices
+  -  Unauthorized hardware plugged into the company network, such as a personal Wi-Fi router or a hidden mini-computer.
 ### Endpoint & Emerging Edge Surfaces
 - Mobile devices
+  -  connect to insecure public Wi-Fi, get hacked
 - Wireless and low-powered communications
+  -  Wi-Fi, Bluetooth, Zigbee, or RFID signals used by smart gadgets that often lack strong encryption.
 - Large language models (LLMs)
+  - Tricking the AI, prompt injection
 ### Cloud, Data & External Repositories
 - Public object storage
+  - Cloud storage containers (like AWS S3 buckets) accidentally left open for anyone on the internet to view or download.
 - Public repositories
+  - Online code-sharing sites (like GitHub) where developers accidentally upload private passwords or API keys.
 
 ## 2.5 Given a scenario, analyze indicators of malicious activity.
 ### Malware attacks
